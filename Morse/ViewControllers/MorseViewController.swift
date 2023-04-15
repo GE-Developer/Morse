@@ -45,7 +45,7 @@ final class MorseViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        title = "Morse Code"
+        title = "Morse"
         let appearance = UINavigationBarAppearance()
         appearance.configureWithOpaqueBackground()
         appearance.backgroundColor = .NavBar.background()
@@ -54,6 +54,7 @@ final class MorseViewController: UIViewController {
             .font: UIFont.avenir20Heavy() ?? ""
         ]
         navigationController?.navigationBar.scrollEdgeAppearance = appearance
+        navigationController?.navigationBar.standardAppearance = appearance
         navigationController?.navigationBar.tintColor = UIColor.TVColor.background()
         navigationItem.rightBarButtonItems = [
             UIBarButtonItem(image: .Button.info(), style: .done, target: self, action: #selector(showAlphabetView)),
@@ -82,8 +83,7 @@ final class MorseViewController: UIViewController {
     // MARK: - Private Methods
     @objc private func showAlphabetView() {
         let newVC = MorseAlphabetView()
-        newVC.modalPresentationStyle = .fullScreen
-        present(newVC, animated: true)
+        show(newVC, sender: nil)
     }
     
     

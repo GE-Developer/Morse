@@ -11,7 +11,7 @@ import UIKit
 extension UIColor {
     
     enum Gradient {
-        static func background() -> [UIColor] { [#colorLiteral(red: 0.2605174184, green: 0.2605243921, blue: 0.260520637, alpha: 1), #colorLiteral(red: 0.2605174184, green: 0.2605243921, blue: 0.260520637, alpha: 1), #colorLiteral(red: 0.2371303211, green: 0.2046647439, blue: 0.2666872625, alpha: 1), #colorLiteral(red: 0.2400550281, green: 0.1592444586, blue: 0.2839770118, alpha: 1), #colorLiteral(red: 0.3199191, green: 0.08372647133, blue: 0.3746734773, alpha: 1), #colorLiteral(red: 0.4430136983, green: 0.1394162962, blue: 0.4683914955, alpha: 1)] }
+        static func background() -> [UIColor] { [#colorLiteral(red: 0.1298420429, green: 0.1298461258, blue: 0.1298439503, alpha: 1), #colorLiteral(red: 0.1298420429, green: 0.1298461258, blue: 0.1298439503, alpha: 1), #colorLiteral(red: 0.2207413509, green: 0.1853318351, blue: 0.2432316481, alpha: 1), #colorLiteral(red: 0.2400550281, green: 0.1592444586, blue: 0.2839770118, alpha: 1), #colorLiteral(red: 0.3199191, green: 0.08372647133, blue: 0.3746734773, alpha: 1), #colorLiteral(red: 0.4430136983, green: 0.1394162962, blue: 0.4683914955, alpha: 1)] }
     }
     
     enum ButtonColor {
@@ -31,6 +31,6 @@ extension UIColor {
     }
     
     enum NavBar {
-        static func background() -> UIColor { #colorLiteral(red: 0.2605174184, green: 0.2605243921, blue: 0.260520637, alpha: 1) }
+        static func background() -> UIColor { #colorLiteral(red: 0.1298420429, green: 0.1298461258, blue: 0.1298439503, alpha: 1) }
     }
 }
