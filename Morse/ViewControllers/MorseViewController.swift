@@ -48,7 +48,7 @@ final class MorseViewController: UIViewController {
         title = "Morse Code"
         let appearance = UINavigationBarAppearance()
         appearance.configureWithOpaqueBackground()
-        appearance.backgroundColor = .TVColor.navBarColor()
+        appearance.backgroundColor = .NavBar.background()
         appearance.titleTextAttributes = [
             .foregroundColor: UIColor.TVColor.background(),
             .font: UIFont.avenir20Heavy() ?? ""
@@ -60,7 +60,7 @@ final class MorseViewController: UIViewController {
             UIBarButtonItem(image: .Button.alphabet(), style: .done, target: self, action: #selector(showAlphabetView))
         ]
         
-        view.setGradient(with: UIColor.Gradient.background1())
+        view.setGradient(with: UIColor.Gradient.background())
         setupConstraints()
         
         originalTextView.delegate = self
@@ -70,7 +70,6 @@ final class MorseViewController: UIViewController {
         copyButton.addTarget(self, action: #selector(copyButtonPressed), for: .touchUpInside)
         pasteButton.addTarget(self, action: #selector(pasteButtonPressed), for: .touchUpInside)
 
-        
         updateLabels()
         updateButtons()
     }
@@ -79,21 +78,6 @@ final class MorseViewController: UIViewController {
         super.touchesBegan(touches, with: event)
         view.endEditing(true)
     }
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     
     // MARK: - Private Methods
     @objc private func showAlphabetView() {
