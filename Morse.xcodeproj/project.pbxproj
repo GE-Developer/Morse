@@ -7,23 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C04048629E1653A00286BA3 /* MorseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C04048529E1653A00286BA3 /* MorseViewController.swift */; };
+		4C04048B29E16B6100286BA3 /* Ext + UITextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C04048A29E16B6100286BA3 /* Ext + UITextView.swift */; };
+		4C0404AD29E1768200286BA3 /* Ext + UIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0404AC29E1768200286BA3 /* Ext + UIFont.swift */; };
+		4C0EBA0729E1CAE3003EA709 /* BorderedUITextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0EBA0629E1CAE3003EA709 /* BorderedUITextView.swift */; };
 		4C43705229D8BBEA006405B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C43705129D8BBEA006405B4 /* AppDelegate.swift */; };
 		4C43705429D8BBEA006405B4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C43705329D8BBEA006405B4 /* SceneDelegate.swift */; };
-		4C43705629D8BBEA006405B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C43705529D8BBEA006405B4 /* ViewController.swift */; };
-		4C43705929D8BBEA006405B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C43705729D8BBEA006405B4 /* Main.storyboard */; };
 		4C43705B29D8BBED006405B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C43705A29D8BBED006405B4 /* Assets.xcassets */; };
 		4C43705E29D8BBED006405B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C43705C29D8BBED006405B4 /* LaunchScreen.storyboard */; };
+		4C43706829D8C081006405B4 /* MorseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C43706729D8C081006405B4 /* MorseData.swift */; };
+		4C43706C29D8C3BD006405B4 /* Ext + UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C43706B29D8C3BD006405B4 /* Ext + UIView.swift */; };
+		4C5217E829EAA19700D86048 /* MorseAlphabetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5217E729EAA19700D86048 /* MorseAlphabetView.swift */; };
+		4CBCE39529E76C98008461ED /* Ext + UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBCE39429E76C98008461ED /* Ext + UIColor.swift */; };
+		4CDB2DCB29E96A69000B51AF /* Ext + UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDB2DCA29E96A69000B51AF /* Ext + UILabel.swift */; };
+		4CDB2DCD29E96CF3000B51AF /* Ext + UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDB2DCC29E96CF3000B51AF /* Ext + UIButton.swift */; };
+		4CDB2DCF29E96E34000B51AF /* Ext + UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDB2DCE29E96E34000B51AF /* Ext + UIImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4C04048529E1653A00286BA3 /* MorseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorseViewController.swift; sourceTree = "<group>"; };
+		4C04048A29E16B6100286BA3 /* Ext + UITextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ext + UITextView.swift"; sourceTree = "<group>"; };
+		4C0404AC29E1768200286BA3 /* Ext + UIFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ext + UIFont.swift"; sourceTree = "<group>"; };
+		4C0EBA0629E1CAE3003EA709 /* BorderedUITextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderedUITextView.swift; sourceTree = "<group>"; };
 		4C43704E29D8BBEA006405B4 /* Morse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Morse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C43705129D8BBEA006405B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4C43705329D8BBEA006405B4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4C43705529D8BBEA006405B4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4C43705829D8BBEA006405B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4C43705A29D8BBED006405B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4C43705D29D8BBED006405B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4C43705F29D8BBED006405B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C43706729D8C081006405B4 /* MorseData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorseData.swift; sourceTree = "<group>"; };
+		4C43706B29D8C3BD006405B4 /* Ext + UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ext + UIView.swift"; sourceTree = "<group>"; };
+		4C5217E729EAA19700D86048 /* MorseAlphabetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorseAlphabetView.swift; sourceTree = "<group>"; };
+		4CBCE39429E76C98008461ED /* Ext + UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ext + UIColor.swift"; sourceTree = "<group>"; };
+		4CDB2DCA29E96A69000B51AF /* Ext + UILabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ext + UILabel.swift"; sourceTree = "<group>"; };
+		4CDB2DCC29E96CF3000B51AF /* Ext + UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ext + UIButton.swift"; sourceTree = "<group>"; };
+		4CDB2DCE29E96E34000B51AF /* Ext + UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ext + UIImage.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +55,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4C04048229E1650800286BA3 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				4C43705C29D8BBED006405B4 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		4C04048729E1660B00286BA3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4C43706729D8C081006405B4 /* MorseData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4C04048829E1661900286BA3 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4C04048529E1653A00286BA3 /* MorseViewController.swift */,
+				4C5217E729EAA19700D86048 /* MorseAlphabetView.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		4C04048929E1662400286BA3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4C0EBA0629E1CAE3003EA709 /* BorderedUITextView.swift */,
+				4C43706B29D8C3BD006405B4 /* Ext + UIView.swift */,
+				4C04048A29E16B6100286BA3 /* Ext + UITextView.swift */,
+				4CDB2DCA29E96A69000B51AF /* Ext + UILabel.swift */,
+				4CDB2DCC29E96CF3000B51AF /* Ext + UIButton.swift */,
+				4C0404AC29E1768200286BA3 /* Ext + UIFont.swift */,
+				4CDB2DCE29E96E34000B51AF /* Ext + UIImage.swift */,
+				4CBCE39429E76C98008461ED /* Ext + UIColor.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		4C43704529D8BBEA006405B4 = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +114,32 @@
 		4C43705029D8BBEA006405B4 /* Morse */ = {
 			isa = PBXGroup;
 			children = (
-				4C43705129D8BBEA006405B4 /* AppDelegate.swift */,
-				4C43705329D8BBEA006405B4 /* SceneDelegate.swift */,
-				4C43705529D8BBEA006405B4 /* ViewController.swift */,
-				4C43705729D8BBEA006405B4 /* Main.storyboard */,
-				4C43705A29D8BBED006405B4 /* Assets.xcassets */,
-				4C43705C29D8BBED006405B4 /* LaunchScreen.storyboard */,
-				4C43705F29D8BBED006405B4 /* Info.plist */,
+				4C43706529D8BC7B006405B4 /* Resources */,
+				4C43706629D8BF71006405B4 /* Application */,
+				4C04048229E1650800286BA3 /* Storyboards */,
+				4C04048729E1660B00286BA3 /* Models */,
+				4C04048829E1661900286BA3 /* ViewControllers */,
+				4C04048929E1662400286BA3 /* Extensions */,
 			);
 			path = Morse;
+			sourceTree = "<group>";
+		};
+		4C43706529D8BC7B006405B4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4C43705A29D8BBED006405B4 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4C43706629D8BF71006405B4 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				4C43705129D8BBEA006405B4 /* AppDelegate.swift */,
+				4C43705329D8BBEA006405B4 /* SceneDelegate.swift */,
+				4C43705F29D8BBED006405B4 /* Info.plist */,
+			);
+			path = Application;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +202,6 @@
 			files = (
 				4C43705E29D8BBED006405B4 /* LaunchScreen.storyboard in Resources */,
 				4C43705B29D8BBED006405B4 /* Assets.xcassets in Resources */,
-				4C43705929D8BBEA006405B4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +212,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C43705629D8BBEA006405B4 /* ViewController.swift in Sources */,
+				4C0EBA0729E1CAE3003EA709 /* BorderedUITextView.swift in Sources */,
 				4C43705229D8BBEA006405B4 /* AppDelegate.swift in Sources */,
+				4C43706829D8C081006405B4 /* MorseData.swift in Sources */,
+				4C0404AD29E1768200286BA3 /* Ext + UIFont.swift in Sources */,
 				4C43705429D8BBEA006405B4 /* SceneDelegate.swift in Sources */,
+				4C04048B29E16B6100286BA3 /* Ext + UITextView.swift in Sources */,
+				4C04048629E1653A00286BA3 /* MorseViewController.swift in Sources */,
+				4CBCE39529E76C98008461ED /* Ext + UIColor.swift in Sources */,
+				4CDB2DCB29E96A69000B51AF /* Ext + UILabel.swift in Sources */,
+				4CDB2DCD29E96CF3000B51AF /* Ext + UIButton.swift in Sources */,
+				4C43706C29D8C3BD006405B4 /* Ext + UIView.swift in Sources */,
+				4CDB2DCF29E96E34000B51AF /* Ext + UIImage.swift in Sources */,
+				4C5217E829EAA19700D86048 /* MorseAlphabetView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		4C43705729D8BBEA006405B4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4C43705829D8BBEA006405B4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4C43705C29D8BBED006405B4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -289,22 +365,26 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6DCRFKN8GP;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Morse/Info.plist;
+				INFOPLIST_FILE = Morse/Application/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Enigma;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "GE-Developer.Morse";
+				PRODUCT_BUNDLE_IDENTIFIER = "GE-Developer.Morse1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -317,22 +397,26 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6DCRFKN8GP;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Morse/Info.plist;
+				INFOPLIST_FILE = Morse/Application/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Enigma;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "GE-Developer.Morse";
+				PRODUCT_BUNDLE_IDENTIFIER = "GE-Developer.Morse1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
