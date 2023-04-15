@@ -14,5 +14,10 @@ class MorseAlphabetView: UIViewController {
         view.backgroundColor = .green
         
     }
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        super.touchesBegan(touches, with: event)
+        dismiss(animated: true)
+    }
 
 }
