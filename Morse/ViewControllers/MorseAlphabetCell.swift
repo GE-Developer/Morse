@@ -8,27 +8,30 @@
 import UIKit
 
 final class MorseAlphabetCell: UITableViewCell {
-    
-//    var originalText: Character!
-//    var morseText: String!
-    
-    var originalLabel = UILabel()
-    var morseLabel = UILabel()
+ 
+    let originalLabel = UILabel()
+    let morseLabel = UILabel()
 
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
-        
+      
         setConstraints()
         
-        originalLabel.textColor = .TVColor.borderAnimation()
-        morseLabel.textColor = .TVColor.borderAnimation()
+        originalLabel.font = .avenir16()
+        morseLabel.font = .morseFont18()
+        
+        originalLabel.adjustsFontSizeToFitWidth = true
+        
+        originalLabel.textColor = #colorLiteral(red: 0.9999960065, green: 1, blue: 1, alpha: 1)
+        morseLabel.textColor = #colorLiteral(red: 0.9999960065, green: 1, blue: 1, alpha: 0.7563649361)
         morseLabel.textAlignment = .right
     
         backgroundColor = .NavBar.background()
+        
+        self.isUserInteractionEnabled = false
+
     }
-    
-  
-    
+
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
@@ -41,15 +44,15 @@ final class MorseAlphabetCell: UITableViewCell {
         morseLabel.translatesAutoresizingMaskIntoConstraints = false
         
         NSLayoutConstraint.activate([
-            originalLabel.topAnchor.constraint(equalTo: topAnchor, constant: 10),
-            originalLabel.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 10),
+            originalLabel.topAnchor.constraint(equalTo: topAnchor, constant: 5),
+            originalLabel.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 20),
             originalLabel.trailingAnchor.constraint(equalTo: centerXAnchor, constant: -10),
-            originalLabel.bottomAnchor.constraint(equalTo: bottomAnchor, constant: -10),
+            originalLabel.bottomAnchor.constraint(equalTo: bottomAnchor, constant: -5),
             
-            morseLabel.topAnchor.constraint(equalTo: topAnchor, constant: 10),
+            morseLabel.topAnchor.constraint(equalTo: topAnchor, constant: 5),
             morseLabel.leadingAnchor.constraint(equalTo: centerXAnchor, constant: 10),
-            morseLabel.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -10),
-            morseLabel.bottomAnchor.constraint(equalTo: bottomAnchor, constant: -10)
+            morseLabel.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -5),
+            morseLabel.bottomAnchor.constraint(equalTo: bottomAnchor, constant: -5)
         ])
     }
     

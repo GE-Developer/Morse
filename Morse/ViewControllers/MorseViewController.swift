@@ -38,7 +38,7 @@ final class MorseViewController: UIViewController {
         buttons: [copyButton, morseScreenButton, reverseButton],
         countLabel: morseCountLabel
     )
-    
+ 
     private let maxChar = 150
           
     // MARK: - Override Methods
@@ -46,6 +46,7 @@ final class MorseViewController: UIViewController {
         super.viewDidLoad()
         
         title = "Morse"
+        
         let appearance = UINavigationBarAppearance()
         appearance.configureWithOpaqueBackground()
         appearance.backgroundColor = .NavBar.background()
@@ -53,13 +54,12 @@ final class MorseViewController: UIViewController {
             .foregroundColor: UIColor.TVColor.background(),
             .font: UIFont.avenir20Heavy() ?? ""
         ]
+        
         navigationController?.navigationBar.scrollEdgeAppearance = appearance
         navigationController?.navigationBar.standardAppearance = appearance
         navigationController?.navigationBar.tintColor = UIColor.TVColor.background()
-        navigationItem.rightBarButtonItems = [
-            UIBarButtonItem(image: .Button.info(), style: .done, target: self, action: #selector(showAlphabetView)),
-            UIBarButtonItem(image: .Button.alphabet(), style: .done, target: self, action: #selector(showAlphabetView))
-        ]
+        navigationItem.rightBarButtonItem = UIBarButtonItem(image: .Button.info(), style: .done, target: self, action: #selector(showAlphabetView))
+
         
         view.setGradient(with: UIColor.Gradient.background())
         setupConstraints()
